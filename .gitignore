@@ -1,0 +1,25 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# macOS
+.DS_Store
+
+# CocoaPods / Carthage (unused, but ignore if added later)
+Pods/
+Carthage/Build/
+
+# Personal session archive — never push the raw chat transcript to the shared repo
+_session-transcript.jsonl

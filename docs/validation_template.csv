@@ -1,0 +1,9 @@
+timestamp,label,method,true_mm,measured_mm,error_mm,device
+2026-07-16T20:00:00Z,Ref 150 mm,manual,150.00,150.20,0.20,iPhone
+2026-07-16T20:01:00Z,Ref 600 mm,manual,600.00,600.50,0.50,iPhone
+2026-07-16T20:02:00Z,Ref 1200 mm,plane-pair,1200.00,1201.10,1.10,iPhone
+2026-07-16T20:03:00Z,Ref 2000 mm,plane-pair,2000.00,2002.40,2.40,iPhone
+2026-07-16T20:04:00Z,Width,plane-pair,1204.00,1204.40,0.40,iPhone
+2026-07-16T20:05:00Z,Width,plane-pair,1204.00,1203.90,-0.10,iPhone
+2026-07-16T20:06:00Z,Height,wall-height,2438.00,2439.20,1.20,iPhone
+2026-07-16T20:07:00Z,Depth,floor-extent,610.00,609.30,-0.70,iPhone
