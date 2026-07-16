@@ -21,7 +21,7 @@ Build a working iPhone app that (a) scans a closet with the iPhone's sensors, (b
 - ARKit VIO scale drift grows with path length (keep the scan short and looped to bound it).
 - A closet (dark, tight, fabric, sometimes mirrors) is near the sensor's worst case.
 
-Sources include Luetzenburg 2021 (Scientific Reports), façade/indoor-mapping studies vs. terrestrial laser scanners (2024), and it-jim's RoomPlan analyses. Full source list is in the planning notes; key figures are summarized in the README and TALK_TRACK.
+Sources include Luetzenburg 2021 (Scientific Reports), façade/indoor-mapping studies vs. terrestrial laser scanners (2024), and it-jim's RoomPlan analyses. Full source list is in the planning notes; key figures are summarized in the README.
 
 ## Architecture decisions (and why)
 
@@ -57,7 +57,7 @@ A complete native SwiftUI app (see the repo tree in the [README](../README.md)):
 - The Swift was written on Windows and **reviewed for API/compile-correctness by three independent passes** (ARKit/RoomPlan, RealityKit/SceneKit/SwiftUI, and Swift type-consistency). No blockers were found; two behavioral fixes and minor polish were applied.
 - **It has not yet been compiled** — that happens on your Mac. Follow [SETUP.md](SETUP.md): create the Xcode project, drop in the source, sign, and run on a LiDAR iPhone (iOS 17+). Run `⌘U` for the unit tests (no device needed).
 - Acquire the validation kit (digital caliper, reference box, laser measure) and run the study per VALIDATION.md.
-- Rehearse using TALK_TRACK.md.
+- Rehearse the 20-minute demo flow and Q&A (kept in a private, un-committed talk-track file).
 
 ## Known limitations to own in the interview
 - Not a reliable 1/16" on every span (report the measured tolerance instead).

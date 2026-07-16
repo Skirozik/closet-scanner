@@ -66,7 +66,7 @@ ClosetScanner/            App source (drop into an Xcode target)
   Validation/             CSV trial logging
   Results/ + ContentView  UI
 ClosetScannerTests/       Unit tests for the geometry/stats core
-docs/                     SETUP, VALIDATION, TALK_TRACK, CSV template
+docs/                     SETUP, VALIDATION, HANDOFF, CSV template
 ```
 
 ## Accuracy & validation

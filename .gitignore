@@ -23,3 +23,6 @@ Carthage/Build/
 
 # Personal session archive — never push the raw chat transcript to the shared repo
 _session-transcript.jsonl
+
+# Private interview prep — kept locally, not shared in the public repo
+docs/TALK_TRACK.md
