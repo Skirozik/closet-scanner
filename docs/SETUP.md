@@ -2,7 +2,20 @@
 
 You're an experienced iOS dev, so this is terse. It assumes macOS + Xcode 15+ and a LiDAR iPhone (12 Pro or newer Pro) on iOS 17+.
 
-## 1. Create the Xcode project
+## 0. Fastest path — generate the project with XcodeGen (recommended)
+
+The repo ships a [`project.yml`](../project.yml), so you can skip the manual project creation:
+
+```bash
+brew install xcodegen        # if you don't have it
+cd closet-scanner
+xcodegen generate
+open ClosetScanner.xcodeproj
+```
+
+Then jump to **§4 Sign & run**. (The generated `.xcodeproj` is reproducible from `project.yml`; commit it or git-ignore it, your call.) If you'd rather not install XcodeGen, use the manual steps below.
+
+## 1. Create the Xcode project (manual alternative)
 
 1. Xcode → **File ▸ New ▸ Project ▸ iOS ▸ App**.
 2. Product Name: **ClosetScanner**. Interface: **SwiftUI**. Language: **Swift**. Storage: **None**.
